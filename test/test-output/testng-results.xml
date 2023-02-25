@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="260026" started-at="2023-02-25T19:53:48 IST" finished-at="2023-02-25T19:58:08 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="260026" started-at="2023-02-25T19:53:48 IST" finished-at="2023-02-25T19:58:08 IST">
+      <class name="testCase.LoginWithValidTestCase">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="setExtent" is-config="true" duration-ms="2" started-at="2023-02-25T19:53:48 IST" finished-at="2023-02-25T19:53:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="chromeLogin" duration-ms="7612" started-at="2023-02-25T19:56:42 IST" data-provider="data" finished-at="2023-02-25T19:56:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:56:50 IST" finished-at="2023-02-25T19:56:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeLogin status=SUCCESS method=LoginWithValidTestCase.chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="edgeLogin" duration-ms="9195" started-at="2023-02-25T19:56:50 IST" data-provider="data" finished-at="2023-02-25T19:56:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:56:59 IST" finished-at="2023-02-25T19:56:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edgeLogin status=SUCCESS method=LoginWithValidTestCase.edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="fireFoxLogin" duration-ms="11830" started-at="2023-02-25T19:56:59 IST" data-provider="data" finished-at="2023-02-25T19:57:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:57:11 IST" finished-at="2023-02-25T19:57:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fireFoxLogin status=SUCCESS method=LoginWithValidTestCase.fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:testCase.LoginWithValidTestCase@319b92f3]" name="closeExtent" is-config="true" duration-ms="52" started-at="2023-02-25T19:58:08 IST" finished-at="2023-02-25T19:58:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- testCase.LoginWithValidTestCase -->
+      <class name="testCase.LoginWithInvalidTestCase">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="setExtent" is-config="true" duration-ms="181" started-at="2023-02-25T19:53:48 IST" finished-at="2023-02-25T19:53:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="chromeLogin" duration-ms="9764" started-at="2023-02-25T19:53:48 IST" data-provider="data" finished-at="2023-02-25T19:53:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="11" started-at="2023-02-25T19:53:58 IST" finished-at="2023-02-25T19:53:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeLogin status=SUCCESS method=LoginWithInvalidTestCase.chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="chromeLogin" duration-ms="7880" started-at="2023-02-25T19:53:58 IST" data-provider="data" finished-at="2023-02-25T19:54:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="2" started-at="2023-02-25T19:54:06 IST" finished-at="2023-02-25T19:54:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeLogin status=SUCCESS method=LoginWithInvalidTestCase.chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="chromeLogin" duration-ms="8732" started-at="2023-02-25T19:54:06 IST" data-provider="data" finished-at="2023-02-25T19:54:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="2" started-at="2023-02-25T19:54:15 IST" finished-at="2023-02-25T19:54:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeLogin status=SUCCESS method=LoginWithInvalidTestCase.chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="chromeLogin" duration-ms="7357" started-at="2023-02-25T19:54:15 IST" data-provider="data" finished-at="2023-02-25T19:54:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:54:22 IST" finished-at="2023-02-25T19:54:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeLogin status=SUCCESS method=LoginWithInvalidTestCase.chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="chromeLogin" duration-ms="7180" started-at="2023-02-25T19:54:22 IST" data-provider="data" finished-at="2023-02-25T19:54:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:54:29 IST" finished-at="2023-02-25T19:54:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeLogin status=SUCCESS method=LoginWithInvalidTestCase.chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="chromeLogin" duration-ms="6893" started-at="2023-02-25T19:54:29 IST" data-provider="data" finished-at="2023-02-25T19:54:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:54:36 IST" finished-at="2023-02-25T19:54:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeLogin status=SUCCESS method=LoginWithInvalidTestCase.chromeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="edgeLogin" duration-ms="9753" started-at="2023-02-25T19:54:36 IST" data-provider="data" finished-at="2023-02-25T19:54:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:54:46 IST" finished-at="2023-02-25T19:54:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edgeLogin status=SUCCESS method=LoginWithInvalidTestCase.edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="edgeLogin" duration-ms="8864" started-at="2023-02-25T19:54:46 IST" data-provider="data" finished-at="2023-02-25T19:54:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:54:55 IST" finished-at="2023-02-25T19:54:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edgeLogin status=SUCCESS method=LoginWithInvalidTestCase.edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="edgeLogin" duration-ms="10027" started-at="2023-02-25T19:54:55 IST" data-provider="data" finished-at="2023-02-25T19:55:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:55:05 IST" finished-at="2023-02-25T19:55:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edgeLogin status=SUCCESS method=LoginWithInvalidTestCase.edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="edgeLogin" duration-ms="9140" started-at="2023-02-25T19:55:05 IST" data-provider="data" finished-at="2023-02-25T19:55:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:55:14 IST" finished-at="2023-02-25T19:55:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edgeLogin status=SUCCESS method=LoginWithInvalidTestCase.edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="edgeLogin" duration-ms="9486" started-at="2023-02-25T19:55:14 IST" data-provider="data" finished-at="2023-02-25T19:55:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="0" started-at="2023-02-25T19:55:24 IST" finished-at="2023-02-25T19:55:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edgeLogin status=SUCCESS method=LoginWithInvalidTestCase.edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="edgeLogin" duration-ms="8315" started-at="2023-02-25T19:55:24 IST" data-provider="data" finished-at="2023-02-25T19:55:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="0" started-at="2023-02-25T19:55:32 IST" finished-at="2023-02-25T19:55:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edgeLogin status=SUCCESS method=LoginWithInvalidTestCase.edgeLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="fireFoxLogin" duration-ms="11383" started-at="2023-02-25T19:55:32 IST" data-provider="data" finished-at="2023-02-25T19:55:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:55:43 IST" finished-at="2023-02-25T19:55:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fireFoxLogin status=SUCCESS method=LoginWithInvalidTestCase.fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="fireFoxLogin" duration-ms="11220" started-at="2023-02-25T19:55:43 IST" data-provider="data" finished-at="2023-02-25T19:55:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:55:54 IST" finished-at="2023-02-25T19:55:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fireFoxLogin status=SUCCESS method=LoginWithInvalidTestCase.fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="fireFoxLogin" duration-ms="13050" started-at="2023-02-25T19:55:54 IST" data-provider="data" finished-at="2023-02-25T19:56:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:56:08 IST" finished-at="2023-02-25T19:56:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fireFoxLogin status=SUCCESS method=LoginWithInvalidTestCase.fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="fireFoxLogin" duration-ms="11992" started-at="2023-02-25T19:56:08 IST" data-provider="data" finished-at="2023-02-25T19:56:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="4" started-at="2023-02-25T19:56:20 IST" finished-at="2023-02-25T19:56:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fireFoxLogin status=SUCCESS method=LoginWithInvalidTestCase.fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="fireFoxLogin" duration-ms="11065" started-at="2023-02-25T19:56:20 IST" data-provider="data" finished-at="2023-02-25T19:56:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:56:31 IST" finished-at="2023-02-25T19:56:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fireFoxLogin status=SUCCESS method=LoginWithInvalidTestCase.fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="fireFoxLogin" duration-ms="11835" started-at="2023-02-25T19:56:31 IST" data-provider="data" finished-at="2023-02-25T19:56:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxLogin -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="testresult" is-config="true" duration-ms="3" started-at="2023-02-25T19:56:42 IST" finished-at="2023-02-25T19:56:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fireFoxLogin status=SUCCESS method=LoginWithInvalidTestCase.fireFoxLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:testCase.LoginWithInvalidTestCase@2641e737]" name="closeExtent" is-config="true" duration-ms="439" started-at="2023-02-25T19:58:08 IST" finished-at="2023-02-25T19:58:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- testCase.LoginWithInvalidTestCase -->
+      <class name="testCase.LogoutTestCase">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="setExtent" is-config="true" duration-ms="1" started-at="2023-02-25T19:53:48 IST" finished-at="2023-02-25T19:53:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="logoutChromebrowser(java.lang.String,java.lang.String)[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="logoutChromebrowser" duration-ms="11531" started-at="2023-02-25T19:57:27 IST" data-provider="data" finished-at="2023-02-25T19:57:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutChromebrowser -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:57:38 IST" finished-at="2023-02-25T19:57:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutChromebrowser status=SUCCESS method=LogoutTestCase.logoutChromebrowser(java.lang.String,java.lang.String)[pri:0, instance:testCase.LogoutTestCase@5c18298f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="logoutedgebrowser(java.lang.String,java.lang.String)[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="logoutedgebrowser" duration-ms="12813" started-at="2023-02-25T19:57:38 IST" data-provider="data" finished-at="2023-02-25T19:57:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutedgebrowser -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="testresult" is-config="true" duration-ms="1" started-at="2023-02-25T19:57:51 IST" finished-at="2023-02-25T19:57:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutedgebrowser status=SUCCESS method=LogoutTestCase.logoutedgebrowser(java.lang.String,java.lang.String)[pri:0, instance:testCase.LogoutTestCase@5c18298f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="logoutfirefoxbrowser(java.lang.String,java.lang.String)[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="logoutfirefoxbrowser" duration-ms="16381" started-at="2023-02-25T19:57:51 IST" data-provider="data" finished-at="2023-02-25T19:58:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfirefoxbrowser -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="testresult" is-config="true" duration-ms="0" started-at="2023-02-25T19:58:08 IST" finished-at="2023-02-25T19:58:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutfirefoxbrowser status=SUCCESS method=LogoutTestCase.logoutfirefoxbrowser(java.lang.String,java.lang.String)[pri:0, instance:testCase.LogoutTestCase@5c18298f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:testCase.LogoutTestCase@5c18298f]" name="closeExtent" is-config="true" duration-ms="68" started-at="2023-02-25T19:58:08 IST" finished-at="2023-02-25T19:58:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- testCase.LogoutTestCase -->
+      <class name="testCase.SearchStudent">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testCase.SearchStudent@fcd6521]" name="setExtent" is-config="true" duration-ms="1" started-at="2023-02-25T19:53:48 IST" finished-at="2023-02-25T19:53:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCase.SearchStudent@fcd6521]" name="setup" is-config="true" duration-ms="4019" started-at="2023-02-25T19:57:11 IST" finished-at="2023-02-25T19:57:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchStudent()[pri:0, instance:testCase.SearchStudent@fcd6521]" name="searchStudent" duration-ms="11790" started-at="2023-02-25T19:57:15 IST" finished-at="2023-02-25T19:57:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchStudent -->
+        <test-method status="PASS" signature="testresult(org.testng.ITestResult)[pri:0, instance:testCase.SearchStudent@fcd6521]" name="testresult" is-config="true" duration-ms="0" started-at="2023-02-25T19:57:27 IST" finished-at="2023-02-25T19:57:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchStudent status=SUCCESS method=SearchStudent.searchStudent()[pri:0, instance:testCase.SearchStudent@fcd6521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testresult -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:testCase.SearchStudent@fcd6521]" name="closeExtent" is-config="true" duration-ms="46" started-at="2023-02-25T19:58:08 IST" finished-at="2023-02-25T19:58:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- testCase.SearchStudent -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

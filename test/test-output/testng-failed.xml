@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCase.LogoutTestCase">
+        <methods>
+          <include name="setExtent"/>
+          <include name="testresult"/>
+          <include name="logoutedgebrowser" invocation-numbers="0"/>
+          <include name="closeExtent"/>
+        </methods>
+      </class> <!-- testCase.LogoutTestCase -->
+      <class name="testCase.SearchStudent">
+        <methods>
+          <include name="testresult"/>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="closeExtent"/>
+          <include name="searchStudent"/>
+        </methods>
+      </class> <!-- testCase.SearchStudent -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
